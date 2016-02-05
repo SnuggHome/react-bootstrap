@@ -21,6 +21,7 @@
     "docs-prod-unoptimized": "npm run docs-build -- --dev && NODE_ENV=production babel-node docs/server.js"
   },
   "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
   "directories": {
     "lib": "lib/"
   },
@@ -29,7 +30,8 @@
     "README.md",
     "CHANGELOG.md",
     "lib",
-    "dist"
+    "dist",
+    "src"
   ],
   "keywords": [
     "react",
